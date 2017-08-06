@@ -76,13 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/lanix/l900/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/lanix/l900/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lanix/l900/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lanix/l900/proprietary/etc/DiagCfg/Diag.cfg:system/etc/DiagCfg/Diag.cfg \
     vendor/lanix/l900/proprietary/etc/dpm/fdMgr/fd.conf:system/etc/dpm/fdMgr/fd.conf \
     vendor/lanix/l900/proprietary/etc/logmask/default_diag_mask.cfg:system/etc/logmask/default_diag_mask.cfg \
@@ -607,6 +600,11 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/lanix/l900/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so
 endif
+
+# Libs
+PRODUCT_COPY_FILES += \
+    vendor/wiko/l5510/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
+    vendor/wiko/l5510/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
 
 PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \

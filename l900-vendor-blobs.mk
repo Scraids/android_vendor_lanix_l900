@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/lanix/l900/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lanix/l900/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lanix/l900/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/lanix/l900/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/lanix/l900/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/lanix/l900/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
@@ -102,8 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/lanix/l900/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lanix/l900/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/lanix/l900/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/lanix/l900/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     vendor/lanix/l900/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/lanix/l900/proprietary/etc/device_monitor_for_nff.conf:system/etc/device_monitor_for_nff.conf \
     vendor/lanix/l900/proprietary/etc/device_state_monitor.conf:system/etc/device_state_monitor.conf \
@@ -115,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/lanix/l900/proprietary/lib/drm/libdrmhwomavoneplugin.so:system/lib/drm/libdrmhwomavoneplugin.so \
     vendor/lanix/l900/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/lanix/l900/proprietary/lib/hw/nfc_nci_pn547.default.so:system/lib/hw/nfc_nci_pn547.default.so \
     vendor/lanix/l900/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/lanix/l900/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/lanix/l900/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -133,9 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lanix/l900/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lanix/l900/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
-    vendor/lanix/l900/proprietary/lib/libnfc_nci_jni_nxp.so:system/lib/libnfc_nci_jni_nxp.so \
     vendor/lanix/l900/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
-    vendor/lanix/l900/proprietary/lib/libnfc-nci-nxp.so:system/lib/libnfc-nci-nxp.so \
     vendor/lanix/l900/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/lanix/l900/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
     vendor/lanix/l900/proprietary/lib/libqmi_oem_svc.so:system/lib/libqmi_oem_svc.so \
@@ -567,8 +561,6 @@ PRODUCT_COPY_FILES += \
     vendor/lanix/l900/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lanix/l900/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/lanix/l900/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/lanix/l900/proprietary/vendor/lib/libnfcD_nci_jni.so:system/vendor/lib/libnfcD_nci_jni.so \
-    vendor/lanix/l900/proprietary/vendor/lib/libnfcD-nci.so:system/vendor/lib/libnfcD-nci.so \
     vendor/lanix/l900/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/lanix/l900/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lanix/l900/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
